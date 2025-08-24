@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{f66e8c9b-4dd2-46d4-b5fd-df6f982e56b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\shaders">
+      <UniqueIdentifier>{7baf2276-66e3-4dac-b97c-91b359f6d1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stb_image">
+      <UniqueIdentifier>{c2a9ede5-fb89-48a1-b731-1ef8db49f58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{724e259c-6f8a-4436-9286-e190b56b945a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Shaders">
+      <UniqueIdentifier>{30a900e3-400a-4fb6-9cbe-4edfe860309f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{ee42cb5e-fd6f-4e37-a5ab-0791397643b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Textures">
+      <UniqueIdentifier>{5c48dcb5-ab13-4a85-83ad-b3945777b881}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files\stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferLayout.h">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Objects\Textures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Objects\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Objects\Textures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Texture.Shader">
+      <Filter>Renderer</Filter>
+    </None>
+    <None Include="Basic.shader">
+      <Filter>res\shaders</Filter>
+    </None>
+    <None Include="Rotation.shader">
+      <Filter>res\shaders</Filter>
+    </None>
+    <None Include="3D.shader">
+      <Filter>res\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
